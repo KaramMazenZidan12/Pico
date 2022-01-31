@@ -1,0 +1,37 @@
+.gal-cover{
+    background-image: radial-gradient(closest-side at 50% 70%,#979494b2,#979494b2,white);
+
+} 
+.hr-dash{
+    height: 2px;
+    width: 300px;
+    background-color: #974fc2;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.gallagsy h1  {
+    padding-top: 100px;
+    
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    color: #8d8a8a;
+    font-family: "Oswald", sans-serif;
+}
+.gallagsy p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 27px;
+    padding-top: 30px;
+    color: rgb(37, 36, 36);
+    text-align: center;
+
+}
+.dash {
+    height: 2px;
+    width: 50px;
+    background-color: #974fc2;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  } 

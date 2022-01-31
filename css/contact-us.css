@@ -1,0 +1,78 @@
+.contact{
+    padding-top: 80px;
+}
+.contact h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom:30px ;
+    color: #8d8a8a;
+	font-family: "Oswald", sans-serif;
+	margin-top: -20px;
+  }
+  .bg-purple{
+      background-color:#a992d2 ;
+     
+     
+  }
+  .contact-section{
+	background: url('markus-spiske.jpg') 
+	no-repeat center center/cover;
+	padding: 0px 0;
+}
+
+
+
+.contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	background: rgb(226, 223, 223);
+	padding: 20px 40px;
+	outline: none;
+	color: rgb(172, 96, 196);
+	transition: 0.5s;
+	border-radius: 20px;
+	border: none;
+	
+}
+
+.contact-form-text:hover {
+	box-shadow: 0 0 10px 4px #750697;
+}
+ 
+ textarea.contact-form-text{
+	 resize: none;
+	 height: 120px;
+ }
+ .contact-form-btn{
+	 font-family: 'Bangers', cursive;
+	 font-size: 2rem;
+	 float: right;
+	 background: #8d8a8a;
+	 color: #fff;
+	 padding:12px 50px;
+	 border-radius: 20px;
+	 border: none;
+	 cursor: pointer;
+	 transition: 0.5s;
+ }
+ 
+  .contact-form-btn:hover{
+	  background: #750697;
+  }
+  .dasho{
+	height: 2px;
+	width: 50px;
+	background-color: #974fc2;
+	margin: 0 auto;
+	margin-top:- 20px;
+	margin-bottom: -25px;
+  }

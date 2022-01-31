@@ -1,0 +1,100 @@
+.row {
+  margin: 15px;
+}
+
+
+img.img-fluid.rounded{
+  height: 340px;
+  width: 340px;
+}
+.h1-gallery h1 {
+    padding-top: 100px;
+    
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    color: #8d8a8a;
+    font-family: "Oswald", sans-serif;
+  }
+  .dash {
+    height: 2px;
+    width: 50px;
+    background-color: #974fc2;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  } 
+  .modal-body{
+    background: none;
+    border-style: solid;
+    border-color: darkslateblue;
+    width: 100%;
+  }
+
+
+
+  #load_more{
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+    width: 200px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #8d8a8a;;
+    transition: 0.5s;
+  }
+  #load_more:hover {
+    color: white;
+    background-color:#750697;
+    border: 1px solid#750697;
+    text-decoration: none;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+  .wrap{
+    margin-left:150px;
+    
+  }
+  .searchTerm {
+    width: 22%;
+    border: 3px solid #a230c5;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  .searchTerm:focus{
+    color:#a230c5;
+  }
+  
+  .searchButton {
+    width: 45px;
+    height: 36px;
+    border: 1px solid#a230c5;
+    background: #a230c5;
+    text-align: center;
+    color: #fff;
+    border-radius: 500px ;
+    cursor: pointer;
+    font-size: 20px;
+  }
+ @media screen and (max-width: 768px) {
+ img.img-fluid.rounded{
+  height: auto;
+  width: auto;
+  padding-top:7px;
+}
+.searchTerm {
+    width: 58%;
+	margin-left: -22px;
+  }
+ }
